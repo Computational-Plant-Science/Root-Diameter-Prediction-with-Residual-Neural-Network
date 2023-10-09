@@ -1,6 +1,6 @@
 # Root Diameter Prediction with Residual Neural Network
 Examples of images along with their corresponding ground truth and predicted segmented images.
-![image](https://github.com/Computational-Plant-Science/Root_Image_Segmentation/assets/133724174/987f30db-9f33-45f1-8214-75c19554644b)
+
 
 # Introduction
 Characterizing root systems in field conditions is a challenging task. Surprisingly, not many people have started using Fiber Optic (FO) sensors for this purpose. Utilizing FO sensors for root system characterization could be very helpful for plant breeders aiming to develop stress-resilient crop varieties. To achieve this, we collected data using three FO sensors and analyzed it using a neural network. This code is used to predict the diameter of plant roots using a residual neural network.
