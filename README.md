@@ -11,7 +11,7 @@ The input consists of a 2 x 2 convolutional layer, followed by batch normalizati
 In this setup, "d" denotes the sample size, set at 300, while "n" represents the number of channels, fixed at 2, and "m" represent the number of classes, which is also set at 2. Notably, each dense layer is intricately connected with a corresponding dropout layer with a dropout rate of 0.3, optimizing the network's performance.
 
 # Data Sets and Preparations 
-![Picture1](https://github.com/Computational-Plant-Science/Root-Diameter-Prediction-with-Residual-Neural-Network/assets/133724174/d096cb59-e9d3-4d8d-b332-ab5e41d52b46)
+![pic2](https://github.com/Computational-Plant-Science/Root-Diameter-Prediction-with-Residual-Neural-Network/assets/133724174/b1a7f0a5-adf3-4363-a7d8-df4806583988)
 
 For model development we have generated artificial data by simulation. As shown in the above figure, two sensors were positioned on either side of the location where the rod was inserted into the soil, while the third sensor was placed directly under the rod. Data was captured as the rod was pressed into the soil for a total of 12 minutes, reaching a depth of 15cm. Two different diameter rods were used in the experiments. A total of 15 trials of data were collected for each rod, resulting in a total of 30 data trials.
 
@@ -22,8 +22,6 @@ In each data trial, we took the signals and divided them into smaller parts, eac
 Run the main.py to train the model, and it will automatically load the data from Excel files, start training, and execute utils.py. Additionally, the model's performance results, including accuracy, recall, and precision, will be displayed.
 
 # Model Training and Evaluation Results 
-![pic2](https://github.com/Computational-Plant-Science/Root-Diameter-Prediction-with-Residual-Neural-Network/assets/133724174/b1a7f0a5-adf3-4363-a7d8-df4806583988)
-
 The model was trained for 300 epochs, and after this training, We tested the model with a total of 807 samples, and it demonstrated an impressive test accuracy of 91.07%. These results are quite promising, indicating that the model is performing well. Moreover, as we continue to increase the number of samples for testing, we anticipate further improvements in the model's performance. This suggests that with more data, we can refine and enhance the model's accuracy and effectiveness. 
 
 # Requirements
