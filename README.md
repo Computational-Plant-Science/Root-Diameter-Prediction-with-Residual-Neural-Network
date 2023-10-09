@@ -25,4 +25,4 @@ Run the main.py to train the model, and it will automatically load the data from
 The model was trained for 300 epochs, and after this training, We tested the model with a total of 807 samples, and it demonstrated an impressive test accuracy of 91.07%. These results are quite promising, indicating that the model is performing well. Moreover, as we continue to increase the number of samples for testing, we anticipate further improvements in the model's performance. This suggests that with more data, we can refine and enhance the model's accuracy and effectiveness. 
 
 # Requirements
-seaborn, matplotlib, tensorflow, tensorflow_docs, scikit-learn, etc.
+seaborn, matplotlib, tensorflow, tensorflow_docs, scikit-learn, statsmodels, etc.
