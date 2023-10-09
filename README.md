@@ -10,7 +10,9 @@ The input consists of a 2 x 2 convolutional layer, followed by batch normalizati
 
 In this setup, "d" denotes the sample size, set at 300, while "n" represents the number of channels, fixed at 2, and "m" represent the number of classes, which is also set at 2. Notably, each dense layer is intricately connected with a corresponding dropout layer with a dropout rate of 0.3, optimizing the network's performance.
 
-# Data Sets and Preparations
+# Data Sets and Preparations 
+![image](https://github.com/Computational-Plant-Science/Root-Diameter-Prediction-with-Residual-Neural-Network/assets/133724174/4b587fdd-9d24-411c-97fb-5ba15566683d)
+
 For model development we have generated artificial data by simulation. As shown in the above figure, two sensors were positioned on either side of the location where the rod was inserted into the soil, while the third sensor was placed directly under the rod. Data was captured as the rod was pressed into the soil for a total of 12 minutes, reaching a depth of 15cm. Two different diameter rods were used in the experiments. A total of 15 trials of data were collected for each rod, resulting in a total of 30 data trials.
 
 In each data trial, we took the signals and divided them into smaller parts, each having a size of 300. We did this carefully for every trial, and it gave us a total of 3228 pieces of data. Out of these, we used 2421 for training and the remaining 807 samles for testing our system. This way, we made sure to have a good mix of data for training and testing the model.
