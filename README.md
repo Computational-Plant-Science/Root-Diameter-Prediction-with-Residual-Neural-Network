@@ -22,7 +22,7 @@ In each data trial, we took the signals and divided them into smaller parts, eac
 Run the main.py to train the model, and it will automatically load the data from Excel files, start training, and execute utils.py. Additionally, the model's performance results, including accuracy, recall, and precision, will be displayed.
 
 # Model Training and Evaluation Results 
-![result](https://github.com/Computational-Plant-Science/Root-Diameter-Prediction-with-Residual-Neural-Network/assets/133724174/24fdebd1-1aac-4c33-9995-bf8c740da3d4)
+![pic2](https://github.com/Computational-Plant-Science/Root-Diameter-Prediction-with-Residual-Neural-Network/assets/133724174/b1a7f0a5-adf3-4363-a7d8-df4806583988)
 
 The model was trained for 300 epochs, and after this training, We tested the model with a total of 807 samples, and it demonstrated an impressive test accuracy of 91.07%. These results are quite promising, indicating that the model is performing well. Moreover, as we continue to increase the number of samples for testing, we anticipate further improvements in the model's performance. This suggests that with more data, we can refine and enhance the model's accuracy and effectiveness. 
 
