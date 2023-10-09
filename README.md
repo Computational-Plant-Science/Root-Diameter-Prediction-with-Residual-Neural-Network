@@ -3,12 +3,7 @@
 ResNet Neural Network
 
 # Introduction
-Characterizing root systems in field conditions is a challenging task. Surprisingly, not many people have started using Fiber Optic (FO) sensors for this purpose. Utilizing FO sensors for root system characterization could be very helpful for plant breeders aiming to develop stress-resilient crop varieties. To achieve this, we collected data using three FO sensors and analyzed it using a neural network. This code is used to predict the diameter of plant roots using a residual neural network.
-
-# Network Architecture
-The input consists of a 2 x 2 convolutional layer, followed by batch normalization, an activation function (ReLU), and a max-pooling layer. The convolutional layer comprises 16 feature maps. The output of the max-pooling layer is connected to 21 residual blocks, each composed of two 5 x 5 convolutional layers, followed by two batch normalizations and an activation functions (ReLU). Each convolutional layer consists of 16 feature maps. The output of the final residual block is connected to three dense layers with values of 50, 40, and 20, respectively, and finally, an output layer. 
-
-In this setup, "d" denotes the sample size, set at 300, while "n" represents the number of channels, fixed at 2, and "m" represent the number of classes, which is also set at 2. Notably, each dense layer is intricately connected with a corresponding dropout layer with a dropout rate of 0.3, optimizing the network's performance.
+We collected data using three FO sensors and analyzed it using a neural network. This code is used to predict the diameter of plant roots using a residual neural network.
 
 # Data Sets and Preparations 
 ![pic2](https://github.com/Computational-Plant-Science/Root-Diameter-Prediction-with-Residual-Neural-Network/assets/133724174/b1a7f0a5-adf3-4363-a7d8-df4806583988)
@@ -17,6 +12,10 @@ For model development we have generated artificial data by simulation. As shown 
 
 In each data trial, we took the signals and divided them into smaller parts, each having a size of 300. We did this carefully for every trial, and it gave us a total of 3228 pieces of data. Out of these, we used 2421 for training and the remaining 807 samles for testing our system. This way, we made sure to have a good mix of data for training and testing the model.
 
+# Network Architecture
+The input consists of a 2 x 2 convolutional layer, followed by batch normalization, an activation function (ReLU), and a max-pooling layer. The convolutional layer comprises 16 feature maps. The output of the max-pooling layer is connected to 21 residual blocks, each composed of two 5 x 5 convolutional layers, followed by two batch normalizations and an activation functions (ReLU). Each convolutional layer consists of 16 feature maps. The output of the final residual block is connected to three dense layers with values of 50, 40, and 20, respectively, and finally, an output layer. 
+
+In this setup, "d" denotes the sample size, set at 300, while "n" represents the number of channels, fixed at 2, and "m" represent the number of classes, which is also set at 2. Notably, each dense layer is intricately connected with a corresponding dropout layer with a dropout rate of 0.3, optimizing the network's performance.
 
 # How to Run the script  
 Run the main.py to train the model, and it will automatically load the data from Excel files, start training, and execute utils.py. Additionally, the model's performance results, including accuracy, recall, and precision, will be displayed.
