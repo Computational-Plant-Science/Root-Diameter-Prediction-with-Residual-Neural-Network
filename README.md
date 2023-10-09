@@ -1,5 +1,6 @@
 # Root Diameter Prediction with Residual Neural Network
 Examples of images along with their corresponding ground truth and predicted segmented images.
+![ResNet](https://github.com/Computational-Plant-Science/Root-Diameter-Prediction-with-Residual-Neural-Network/assets/133724174/3bf17fb4-86a3-4c52-9e69-5c7f1f1bf721)
 
 
 # Introduction
