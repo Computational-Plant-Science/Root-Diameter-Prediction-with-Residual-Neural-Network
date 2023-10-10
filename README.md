@@ -1,7 +1,7 @@
 # Root Diameter Prediction with Residual Neural Network
 
 # Introduction
-We collected data using three FO sensors and analyzed it using a neural network. This code is used to predict the diameter of plant roots using a residual neural network.
+We collected data using three fiber optic (FO) sensors and analyzed it using a neural network. This code is used to predict the diameter of plant roots using a residual neural network.
 
 # Data Sets and Preparations 
 ![pic2](https://github.com/Computational-Plant-Science/Root-Diameter-Prediction-with-Residual-Neural-Network/assets/133724174/b1a7f0a5-adf3-4363-a7d8-df4806583988)
